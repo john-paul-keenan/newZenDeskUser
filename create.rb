@@ -8,7 +8,9 @@ zdUserName = gets.strip
 puts "What is your Zen Desk password?"
 zdPassword= STDIN.noecho(&:gets).chomp
 
-puts "What is the new User's Email Address?"
+puts "You are about to create a new end user in Zen Desk. This user wil have access to 
+the Enterprise Only Documentation.\n
+What is the new User's Email Address?"
 newUserEmail = gets.strip
 puts "Thanks! what is the user's first and last name?"
 firstAndLastName = gets.strip
