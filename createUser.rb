@@ -37,3 +37,5 @@ end
 
  response.code
  response.body
+
+ puts "Thanks! an Account for " + newUserEmail
